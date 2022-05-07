@@ -1,0 +1,12 @@
+LIBRARY PluginMod
+EXPORTS
+    OnInitialize=OnInitialize @ 1
+	JmpOnTSExeMainGameStart=OnTenshouExeMainGameStart @ 2
+	JmpOnTSExeSelectingScenarioDaimyo=OnTenshouExeSelectingScenarioDaimyo @ 3
+	JmpOnTSExeSobaChange=OnTenshouExeSobaChange @ 4
+	JmpOnTSExeWritingScenarioDetail1st=OnTenshouExeWritingScenarioDetail1st @ 5
+	JmpOnTSExeWritingScenarioDetail2nd=OnTenshouExeWritingScenarioDetail2nd @ 6
+	JmpOnTSExeWritingScenarioDetail3rd=OnTenshouExeWritingScenarioDetail3rd @ 7
+	JmpOnTSExeGlobalFreeMemoryInGameEnd=OnTenshouExeGlobalFreeMemoryInGameEnd @ 8
+	JmpOnTSExeViewingTopMenu=OnTenshouExeViewingTopMenu @ 9
+	
